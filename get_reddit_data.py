@@ -73,9 +73,9 @@ submission_id_list = [submission_psaw.d_['id'] for submission_psaw in gen]
 # REDDIT POSTS INFORMATION
 ## Connect to praw API
 reddit = praw.Reddit(
-    client_id='0sv3AGeethtp1aEAkj7LaA', 
-    client_secret='a74EDTHgK5B71dg0E3Y553W3atnZnw',
-    user_agent='crypto'
+    client_id='<Your Client ID>', 
+    client_secret='<Your Client Secret>',
+    user_agent='<User Agent>'
     )
 
 sub_comm_list = []
